@@ -15,7 +15,7 @@ body{
     height: 65vh;
     width: 80vh;
     text-align: center;
-    border: 2px solid ;
+    border: 2px solid transparent ;
     border-radius: 20px;
     backdrop-filter: blur(200px);
     display: flex;
@@ -87,6 +87,7 @@ body{
     width: 45px;
     background-color: green;
     color: #fff;
+    border: none;
 }
 .btnDelete{
     border-radius:7px ;
@@ -94,4 +95,5 @@ body{
     width: 45px;
     background-color: red;
     color: #fff;
+    border: none;
 }
